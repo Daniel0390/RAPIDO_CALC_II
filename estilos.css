@@ -1,0 +1,13 @@
+
+
+
+
+.cont1{
+    background-color: rgb(47, 47, 77);
+    max-width: 320px;
+    height: 600px;
+    border: grey 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:50px;
+}
