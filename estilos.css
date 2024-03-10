@@ -1,23 +1,27 @@
 
-
+body{
+    padding: 0;
+}
 
 
 .cont1{
     background-color: rgb(47, 47, 77);
-    width: 100vw;
+    width: 100%;
     min-width: 335px;
     height: 100vh;
     border: grey 1px solid;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: auto;
-    margin-top: 0px;
+    margin-top: -1px;
+    margin-left: 0px;
     
 }
 
 .cont2{
     background-color: rgb(47, 47, 77);
+    border: 1px solid ghostwhite;
     border-radius: 10px;
-    border: 1px white solid;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -27,22 +31,45 @@
     background-color: rgb(125, 118, 118) ;
     width: 75px;
     height: 45px;
+    border-radius: 10px;
+    font-size: 17px;
+    
 }
 
 .btn_p92{
     background-color: rgb(181, 157, 128) ;
     width: 75px;
-    height: 45px; 
+    height: 45px;
+    border-radius: 10px;
+    font-size: 17px; 
+    
 }
 
 .btn_p65{
     background-color:rgb(190, 129, 129) ;
     width: 75px;
-    height: 45px; 
+    height: 45px;
+    border-radius: 10px;
+    font-size: 17px;
+     
 }
 
 .btn_alum{
     background-color: rgb(12, 67, 12);
     width: 75px;
     height: 45px;
+    border-radius: 10px;
+    font-size: 17px;
+    
+}
+
+@media (max-width : 400px) {
+    .cont2{
+        background-color: rgb(47, 47, 77);
+        border-radius: 10px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+    }
 }
