@@ -4,9 +4,7 @@
 
 .cont1{
     background-color: rgb(47, 47, 77);
-    width: 340px;
-    max-width: 400;
-    min-width: 300px;
+    max-width: 335px;
     height: 625px;
     border: grey 1px solid;
     border-radius: 10px;
@@ -25,24 +23,24 @@
 
 .btn_trad{
     background-color: rgb(125, 118, 118) ;
-    width: 60px;
-    height: 30px;
+    width: 75px;
+    height: 45px;
 }
 
 .btn_p92{
     background-color: rgb(181, 157, 128) ;
-    width: 60px;
-    height: 30px; 
+    width: 75px;
+    height: 45px; 
 }
 
 .btn_p65{
     background-color:rgb(190, 129, 129) ;
-    width: 60px;
-    height: 30px; 
+    width: 75px;
+    height: 45px; 
 }
 
 .btn_alum{
     background-color: rgb(12, 67, 12);
-    width: 60px;
-    height: 30px;
+    width: 75px;
+    height: 45px;
 }
