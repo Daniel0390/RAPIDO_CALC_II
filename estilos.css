@@ -103,7 +103,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 85%;
+    margin-top: 80%;
    
    
  
@@ -134,6 +134,10 @@ body{
     height: 300px;
     gap: 2px;
    
+}
+
+.btnpop{
+    background-color: aquamarine;
 }
 
 
