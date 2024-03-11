@@ -33,7 +33,7 @@ body{
     margin: auto;
     margin-top: 2%;
     display: flex;
-    
+
 }
 
 .campo1{
@@ -96,4 +96,38 @@ body{
         justify-content: center;
         gap: 2px;
     }
+}
+
+.teclados{
+    border: gray solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+   
+ 
+}
+
+
+
+
+
+.teclado{
+    border: gray solid 1px;
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr) ;
+    grid-template-rows:repeat(4 ,1fr);
+    width: 150px;
+    height: 250px;
+   
+}
+
+.teclado2{
+    border: gray solid 1px;
+    display: grid;
+    grid-template-columns:repeat(3 ,1fr) ;
+    grid-template-rows: repeat(8, 1fr);
+    width: 150px;
+    height: 250px;
+   
 }
