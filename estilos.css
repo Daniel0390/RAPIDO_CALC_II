@@ -125,9 +125,10 @@ body{
 .teclado2{
     border: gray solid 1px;
     display: grid;
-    grid-template-columns:repeat(3 ,1fr) ;
+    grid-template-columns:repeat(2 ,1fr) ;
     grid-template-rows: repeat(8, 1fr);
     width: 150px;
     height: 250px;
+    gap: 1px;
    
 }
