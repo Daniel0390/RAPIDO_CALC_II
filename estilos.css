@@ -8,7 +8,7 @@ body{
     background-color: rgb(47, 47, 77);
     width: 100%;
     min-width: 335px;
-    height: 100vh;
+    max-height: 100%;
     border: grey 1px solid;
     /* border-radius: 10px; */
     margin: auto;
@@ -137,7 +137,7 @@ body{
 }
 
 .btnpop{
-    background-color: aquamarine;
+    background-color: rgb(84, 186, 152);
 }
 
 
