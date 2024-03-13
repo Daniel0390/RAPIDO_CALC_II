@@ -6,9 +6,9 @@ body{
 
 .cont1{
     background-color: rgb(47, 47, 77);
-    width: 100%;
-    min-width: 335px;
-    max-height: 100%;
+    
+    max-width: 100vh;
+    max-height: 100vh;
     border: grey 1px solid;
     /* border-radius: 10px; */
     margin: auto;
@@ -52,7 +52,7 @@ body{
 
 
 .btn_trad{
-    background-color: rgb(125, 118, 118) ;
+    background-color: rgb(129, 125, 125) ;
     width: 75px;
     height: 45px;
     border-radius: 10px;
@@ -103,7 +103,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 80%;
+    margin-top: 69%;
    
    
  
