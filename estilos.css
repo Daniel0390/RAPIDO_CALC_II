@@ -5,12 +5,13 @@ body{
 
 
 .cont1{
+    position: relative;
     background-color: rgb(47, 47, 77);
-    
+   
     max-width: 100vh;
     max-height: 100vh;
     border: grey 1px solid;
-    /* border-radius: 10px; */
+  
     margin: auto;
     margin-top: -1px;
     margin-left: 0px;
@@ -98,6 +99,16 @@ body{
     }
 }
 
+
+
+
+@media (max-width : 1386px) {
+    .cont1{
+       max-width: 100%;
+    }
+
+}
+
 .teclados{
     border: gray solid 1px;
     width: 100%;
@@ -142,5 +153,6 @@ body{
 
 
 button{
-    font-size: 20px;
+    font-size: 30px;
+
 }

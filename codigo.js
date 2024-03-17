@@ -29,3 +29,21 @@ function cambio2 (){
  function cambio4 (){
     cont1.style.backgroundColor='rgb(12, 67, 12)';
  }
+
+const pantalla = document.querySelector("#campo");
+const botones =  document.querySelectorAll("#btn");
+const botones2 = document.querySelectorAll("btn2");
+
+       
+
+     botones.forEach(boton => {
+         boton.addEventListener("click" , ()=>{
+            
+
+            pantalla.value+=boton.textContent;
+           
+         })
+      })
+
+    
+ 
